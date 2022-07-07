@@ -1,0 +1,243 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Cooking Classes</title>
+        <meta name="robots" content="noindex" />
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="week_1/week_1.html"><strong aria-hidden="true">2.</strong> Week 1</a></li><li class="chapter-item expanded "><a href="week_2/week_2.html"><strong aria-hidden="true">3.</strong> Week 2</a></li><li class="chapter-item expanded "><a href="week_3/week_3.html"><strong aria-hidden="true">4.</strong> Week 3</a></li><li class="chapter-item expanded "><a href="week_4/week_4.html"><strong aria-hidden="true">5.</strong> Week 4</a></li><li class="chapter-item expanded "><a href="tips.html"><strong aria-hidden="true">6.</strong> Tips</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Cooking Classes</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="introduction"><a class="header" href="#introduction">Introduction</a></h1>
+<p>Welcome to this cooking course. Created by Chris and Claire-Louise Norman, it aims to provide a gentle introduction to cooking for those who are blind or visually impaired.</p>
+<p>This course will be run at <a href="https://www.coventryblind.org.uk/">Coventry Resource Centre For The Blind</a>, but the recipes are free for anyone to modify and use.</p>
+<h2 id="before-you-start"><a class="header" href="#before-you-start">Before You Start</a></h2>
+<p>Cooking as a blind person can be challenging: There are hot things everywhere, waiting for your onions to brown is confusing at best, and how exactly does one measure 100g anyway?</p>
+<p>This course will attempt to simplify many commonplace dishes. It will not attempt to prepare you for Master Chef, and Mary Berry won't be hiring you any time soon, but it will endeavour to show you how to create enjoyable, balanced dishes that will see you right with mates or on dates, through film night, or world food night.</p>
+<h2 id="course-structure"><a class="header" href="#course-structure">Course Structure</a></h2>
+<p>The course is split into 4 sections:</p>
+<ul>
+<li><a href="week_1/week_1.html">Week 1</a> will demonstrate all things gravy.</li>
+<li><a href="week_2/week_2.html">Week 2</a> will go through the sacred art of frying.</li>
+<li><a href="week_3/week_3.html">Week 3</a> Will take you on a world tour of different foods.</li>
+<li><a href="week_4/week_4.html">Week 4</a> will have you making puddings like a pro.</li>
+</ul>
+<h2 id="afterword"><a class="header" href="#afterword">Afterword</a></h2>
+<p>The most important thing here is to have fun. The preparation, cooking and consumption of food is a huge part of cultures all over the world, and it's a part that blind and partially sighted people are more than capable of joining in with.</p>
+<p>This course will attempt to teach you safe and simple best practises, but it most certainly isn't the only way to do all this stuff. You can and will find other ways of doing things for yourself. As long as you're happy doing things your own way, you stick with it, even if others find your methods unorthodox.</p>
+<h2 id="tips"><a class="header" href="#tips">Tips</a></h2>
+<p>If you want to read generic cooking tips, please visit the <a href="tips.html">tips</a> page.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="week-1-gravy"><a class="header" href="#week-1-gravy">Week 1: Gravy</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="week-2-fried-stuff"><a class="header" href="#week-2-fried-stuff">Week 2: Fried Stuff</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="week-3-weird-stuff"><a class="header" href="#week-3-weird-stuff">Week 3: Weird Stuff</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="week-4-puddings"><a class="header" href="#week-4-puddings">Week 4: Puddings</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="tips-1"><a class="header" href="#tips-1">Tips</a></h1>
+<p>This section will attempt to collate general tips for doing things both throughout this course, and beyond.</p>
+<p>If you have a suggestion, please <a href="mailto:chris.norman2@gmail.com">email</a> the author, or open an issue.</p>
+<h2 id="safety"><a class="header" href="#safety">Safety</a></h2>
+<h3 id="test-when-cold"><a class="header" href="#test-when-cold">Test when cold</a></h3>
+<p>Sooner rather than later, you will end up dealing with things that are hot. Whether that's sliding an oven pizza in and out on an oven tray, boiling pasta or potatoes, or even pouring a nice cup of <a href="https://www.yorkshiretea.co.uk/">Yorkshire tea</a>, you will need to be able to do things without touching hot surfaces.</p>
+<p>Before (long before if possible) these problems arise, consider doing a cold run.</p>
+<h4 id="kettles"><a class="header" href="#kettles">Kettles</a></h4>
+<p>Fill the kettle with cold water, and pour the cold water into your cup until you can do it without spilling. Then practise with the kettle half-boiled. Slowly work your way up until the kettle is fully boiled.</p>
+<h4 id="ovens"><a class="header" href="#ovens">Ovens</a></h4>
+<p>Take a baking tray and fill it with things that rattle, like marbles, or dice, or screws, or even cutlery. Practise taking it from the kitchen side, and putting it into a cold oven, and closing the oven door. Do all of this with bear hands (ensuring the oven is cold first).</p>
+<p>Walk around your kitchen, open the oven door, and get your tray out.</p>
+<p>When you can do that with a minimum of rattling, repeat with oven gloves on. Then warm the oven a little (50 degrees will be warm, but not hot), and do the same.</p>
+<p>Pro TIP: You can do the same with barbecues before they are lit.</p>
+<h4 id="pans"><a class="header" href="#pans">Pans</a></h4>
+<p>Fill your pans (both frying pans and saucepans) with cold water, and practise walking around with them. Do this with bear feet, so you'll feel any water that drops on your feet.</p>
+<p>Keep doing this until you don't spill anything, and bear in mind, that even if you half fill a pan before cooking, water increases in volume when boiling, so it might appear far fuller when it has been on the heat for a while.</p>
+<p>Pro TIP 1: Put whatever you are boiling in the pan before you put the water in, so you don't end up with a much higher water level than you expect.</p>
+<p>Pro TIP 2: Experiment with using a bigger pan than you think you'll need. The sides will be higher, so there's less chance of the pan boiling over, oil splashing ETC. This is safer, more pleasant for you when cooking, and will likely result in less mess.</p>
+<h3 id="telling-when-a-pan-is-centred"><a class="header" href="#telling-when-a-pan-is-centred">Telling when a pan is centred</a></h3>
+<p>If you're using a gas hob, you can get a good idea if the pan is centred by holding your hand (palm or back) above your pan, and feeling for the hot air that rises. If your pan is not centred, you will likely feel extra hot air to the side you need to move the pan towards, to centre it over the flame.</p>
+<p>When positioning your hand, start with it as high in the air as you can reach, then slowly bring it down until you feel the heat. Over time, no matter how tall you are, you will come to remember how high is too high, and how low is getting uncomfortable.</p>
+<p>Irrespective what hob you're using, assuming it is not a <a href="https://dictionary.cambridge.org/dictionary/english/hotplate">hotplate</a> or an <a href="https://www.cookersandovens.co.uk/blog/what-is-induction/">induction hob</a>, you can feel where about the pan should be situated before you apply any heat.</p>
+<p>Pro TIP 1: In my experience (not scientific fact), the edge of a wok is usually warm rather than hot, so you can touch it to make sure the pan is the same temperature all the way around.</p>
+<p>Pro TIP 2: If you're feeling your way around a pan, bounce your finger rather than dragging it. That way, if you do find it too hot, you'll realise your mistake before any kind of damage is done.</p>
+<p>Pro TIP 3: Have a bowl of cold water run. That way, even if you do burn yourself, you can quickly submerge your finger in cold water to prevent the skin from burning. If you don't have a sink bowl, or you'd rather fill the sink with washing up, running cold water works just as well.</p>
+<h3 id="draining-things"><a class="header" href="#draining-things">Draining things</a></h3>
+<ul>
+<li>Always drain over an empty sink. The hot water can run away, and most colanders have a base, so you can sit them in the sink, and use both hands for holding / directing the pan.</li>
+<li>Don't lean over when draining hot liquids. You might be tempted to lean towards your pan to hear how fas you are pouring, but there will most likely be a rush of steam which will rise when pouring, and if you're too close, it make your eyes water a bit.</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+
+    </body>
+</html>
