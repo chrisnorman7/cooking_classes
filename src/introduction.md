@@ -19,6 +19,12 @@ The course is split into 4 sections:
 - [Week 3](week_3/week_3.md) Will take you on a world tour of different foods.
 - [Week 4](week_4/week_4.md) will have you making puddings like a pro.
 
+Each section represents a 4-week block, where each week is a different recipe.
+
+The final recipe of each block is something a little different, using different equipment, or just being a bit of fun.
+
+Remember: You don't need to make every recipe if you don't want to, and very few of the ingredients can't be replaced.
+
 ## Afterword
 
 The most important thing here is to have fun. The preparation, cooking and consumption of food is a huge part of cultures all over the world, and it's a part that blind and partially sighted people are more than capable of joining in with.
