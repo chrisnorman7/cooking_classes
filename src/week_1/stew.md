@@ -4,7 +4,7 @@ Calling this a recipe is a little insulting to recipes, but I won't tell if you 
 
 The whole point of a stew is to heat up water with stuff in it, and it's possibly the most simple thing you can make. You can cook it in a simple saucepan, inside a [rice cooker](https://www.thespruceeats.com/how-to-use-your-rice-cooker-482851) or [slow cooker](https://www.goodhousekeeping.com/uk/product-reviews/electricals/g25900206/best-slow-cookers-reviewed/), or even go old style, and cook over a fire.
 
-According to [this article](https://foodsguy.com/difference-stew-and-casserole/), if you cook your stew in the oven, it magically becomes a casserole. So once you've got stews down, you can do casseroles too.
+According to [this article](https://foodsguy.com/difference-stew-and-casserole/), if you cook your stew in the oven, it magically becomes a casserole. So once you've got stews down, you can do casseroles too. Just make sure the pan you put in the oven has a lid which you can use, and no part of it is going to melt.
 
 There are specific stews of course. One of my favourite things to eat in the world is [Foul](https://www.themediterraneandish.com/foul-mudammas-recipe/) (pronounced "full"), but they all amount to the same basic 3 steps:
 
@@ -48,10 +48,6 @@ If you've used too much water (happens to the best of us), you can either keep c
 
 Pro TIP: You might need to eat some bits, just to be sure. It's a hard job, but someone's got to do it.
 
-## Serving
+## Serving Suggestions
 
-When it comes to serving your stew, bear in mind that there will still be hot water in your stew.
-
-The easiest way around this is to loudly claim that as you cooked, someone else can serve up. If you cannot summon anyone to do the job for you though, use something like a ladle, and hold the bowl you're serving into over the pan you're serving from. That way, any splashes should go back into the pan, and the worst you'you'll have to deal with is the side of your eating bowl being dirty.
-
-Pro TIP: You can put your stew pan in an empty sink, then serve into bowls. Then if you spill stuff, just remove the stew pan - cleaning the sides and underside with a damp cloth - and rinse out the sink with water.
+In my humble opinion, the best way to serve stew is with bread and butter. If you've got home-made bread then all the better, but shop-bought will do just as well.
