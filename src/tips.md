@@ -18,7 +18,7 @@ Fill the kettle with cold water, and pour the cold water into your cup until you
 
 #### Ovens
 
-Take a baking tray and fill it with things that rattle, like marbles, or dice, or screws, or even cutlery. Practise taking it from the kitchen side, and putting it into a cold oven, and closing the oven door. Do all of this with bear hands (ensuring the oven is cold first).
+Take a baking tray and fill it with things that rattle, like marbles, or dice, or screws, or even cutlery. Practise taking it from the kitchen side, and putting it into a cold oven, and closing the oven door. Do all of this with bare hands (ensuring the oven is cold first).
 
 Walk around your kitchen, open the oven door, and get your tray out.
 
