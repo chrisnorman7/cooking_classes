@@ -1,5 +1,9 @@
 # Introduction
 
+Welcome to this cooking course. Created by Chris and Claire-Louise Norman, it aims to provide a gentle introduction to cooking for those who are blind or visually impaired.
+
+This course will be run at [Coventry Resource Centre For The Blind](https://www.coventryblind.org.uk/), but the recipes are free for anyone to modify and use.
+
 ## Before You Start
 
 Cooking as a blind person can be challenging: There are hot things everywhere, waiting for your onions to brown is confusing at best, and how exactly does one measure 100g anyway?
@@ -23,4 +27,4 @@ This course will attempt to teach you safe and simple best practises, but it mos
 
 ## Tips
 
-If you want the read generic cooking tips, please visit the [tips](tips.md) page.
+If you want to read generic cooking tips, please visit the [tips](tips.md) page.
