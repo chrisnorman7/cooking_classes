@@ -28,7 +28,7 @@ Pro TIP: You can do the same with barbecues before they are lit.
 
 #### Pans
 
-Fill your pans (both frying pans and saucepans) with cold water, and practise walking around with them. Do this with bear feet, so you'll feel any water that drops on your feet.
+Fill your pans (both frying pans and saucepans) with cold water, and practise walking around with them. Do this with bare feet, so you'll feel any water that drops on your feet.
 
 Keep doing this until you don't spill anything, and bear in mind, that even if you half fill a pan before cooking, water increases in volume when boiling, so it might appear far fuller when it has been on the heat for a while.
 
