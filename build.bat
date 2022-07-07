@@ -1,4 +1,2 @@
 @echo off
-mdbook build
-git add docs
-git commit -m "Rebuilt book."
+mdbook build & git add docs & git commit -m "Rebuilt book."
